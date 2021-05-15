@@ -20,7 +20,7 @@ def some_job():
     r = requests.get(image_url) # create HTTP response object 
     filename = "%s.gif" % timestr
     with open(filename,'wb') as f: 
-        f.write(r.content)                                                             # send a HTTP request to the server and save 
+        f.write(r.content)                                     # send a HTTP request to the server and save 
                                                                # the HTTP response in a response object called r 
                                                                # Saving received content as a png file in 
                                                                # binary format 

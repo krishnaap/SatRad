@@ -12,6 +12,9 @@ The `main.sh` script will run whole process, start with simultaneous running of 
 
 ###### If you are using Python on Anaconda, activate your conda environment before running th script.
 
-## Usage
+## Installation
 Download the tool from GitHub from `code` > `download as Zip` or by using git command.
-Extract the zip file, then create two folders `sat` and `rad` within the directory. Then run `main.sh`
+Extract the zip file, then create two folders `sat` and `rad` within the directory.
+
+## Usage
+run the `main.sh` script from terminal using 'bash main.sh`

@@ -16,7 +16,7 @@ def some_job():
     print(timestr)                                                      #..
     image_url = "https://mausam.imd.gov.in/Satellite/3Dasiasec_ir1.jpg" 
     r = requests.get(image_url)                                         # create HTTP response object 
-    filename = "%s.jpg" % timestr                                       # send a HTTP request to the server and save 
+    filename = "./sat/%s.jpg" % timestr                                       # send a HTTP request to the server and save 
     with open(filename,'wb') as f: 
         f.write(r.content)                                              # the HTTP response in a response object called r                    
                                                                         # Saving received content as a png file in 

@@ -12,3 +12,5 @@ The `main.sh` script will run whole process, start with simultaneous running of 
 
 ###### If you are using Python on Anaconda, activate your conda environment before running th script.
 
+## Usage
+Download the tool from GitHub from `code` > `download as Zip` or by using git command.

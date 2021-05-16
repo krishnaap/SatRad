@@ -18,7 +18,7 @@ def some_job():
     print(timestr)
     image_url = "https://mausam.imd.gov.in/Radar/ppz_koc.gif"
     r = requests.get(image_url) # create HTTP response object 
-    filename = "%s.gif" % timestr
+    filename = "./rad/%s.gif" % timestr
     with open(filename,'wb') as f: 
         f.write(r.content)                                     # send a HTTP request to the server and save 
                                                                # the HTTP response in a response object called r 

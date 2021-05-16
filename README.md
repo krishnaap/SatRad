@@ -17,4 +17,4 @@ Download the tool from GitHub from `code` > `download as Zip` or by using git co
 Extract the zip file, then create two folders `sat` and `rad` within the directory.
 
 ## Usage
-run the `main.sh` script from terminal using 'bash main.sh`
+run the `main.sh` script from terminal using `bash main.sh`

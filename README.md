@@ -10,5 +10,5 @@ The `main.sh` script will run whole process, start with simultaneous running of 
 ###### Required packages for making animation
 - Imagemagic
 
-
+###### If you are using Python on Anaconda, activate your conda environment before running th script.
 

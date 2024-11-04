@@ -7,7 +7,9 @@ dependencies:
   - opencv
   - apscheduler
   - time
+  - tk
   - pip:
     - opencv-python
     - apscheduler
     - time
+    - tk

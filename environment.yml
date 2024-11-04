@@ -1,0 +1,13 @@
+
+name: satrad_env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - opencv
+  - apscheduler
+  - time
+  - pip:
+    - opencv-python
+    - apscheduler
+    - time

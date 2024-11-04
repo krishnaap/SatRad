@@ -1,12 +1,7 @@
-name: satrad_env
-channels:
-  - defaults
+name: n_env
 dependencies:
   - python=3.8
-  - pip
-  - opencv
-  - apscheduler
+  - opencv=4.10.0 
   - pip:
-    - opencv-python
-    - apscheduler
-  
+      - pip
+      - opencv-python==4.10.0

@@ -1,4 +1,4 @@
-vname: satrad_env
+name: satrad_env
 channels:
   - defaults
 dependencies:
@@ -6,8 +6,7 @@ dependencies:
   - pip
   - opencv
   - apscheduler
-  -  tk
   - pip:
     - opencv-python
     - apscheduler
-    - tk
+  

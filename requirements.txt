@@ -2,4 +2,3 @@ tk
 opencv-python
 apscheduler
 requests
-time
